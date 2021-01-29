@@ -7,11 +7,7 @@ const Task = ({ task, onDelete, onToggle }) => {
       onClick={() => onToggle(task.id)}
     >
       <h3>
-        {task.text}{' '}
-        <FaTimes
-          style={{ color: 'red', cursor: 'pointer' }}
-          onClick={() => onDelete(task.id)}
-        />
+        {task.text}
       </h3>
       <p>{task.day}</p>
     </div>
@@ -19,3 +15,9 @@ const Task = ({ task, onDelete, onToggle }) => {
 }
 
 export default Task
+{/*  <FaTimes
+
+          style={{ color: 'red', cursor: 'pointer' }}
+          onClick={() => onDelete(task.id)}
+        />
+        */}
