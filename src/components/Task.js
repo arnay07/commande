@@ -15,9 +15,3 @@ const Task = ({ task, onDelete, onToggle }) => {
 }
 
 export default Task
-{/*  <FaTimes
-
-          style={{ color: 'red', cursor: 'pointer' }}
-          onClick={() => onDelete(task.id)}
-        />
-        */}
