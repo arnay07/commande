@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import {useEffect, useState} from "react";
+import {BrowserRouter as Router, Route} from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Tasks from "./components/Tasks";
@@ -7,7 +7,8 @@ import AddTask from "./components/AddTask";
 import About from "./components/About";
 
 const App = () => {
-  const url = "https://commande-prep.herokuapp.com"
+  const url =  "http://localhost:4000"
+  {/*"https://commande-prep.herokuapp.com"*/}
   const [showAddTask, setShowAddTask] = useState(false);
   const [tasks, setTasks] = useState([]);
 
@@ -23,17 +24,13 @@ const App = () => {
   // Fetch Tasks
   const fetchTasks = async () => {
     const res = await fetch(`${url}/tasks`);
-    const data = await res.json();
-
-    return data;
+    return await res.json();
   };
 
   // Fetch Task
   const fetchTask = async (id) => {
     const res = await fetch(`${url}/tasks/${id}`);
-    const data = await res.json();
-
-    return data;
+    return await res.json();
   };
 
   // Add Task

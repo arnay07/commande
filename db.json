@@ -3,13 +3,13 @@
     {
       "text": "something new",
       "day": "march 32 2029",
-      "reminder": false,
+      "reminder": true,
       "id": 1
     },
     {
       "text": "frheohf",
       "day": "232/23/2928",
-      "reminder": false,
+      "reminder": true,
       "id": 2
     },
     {
