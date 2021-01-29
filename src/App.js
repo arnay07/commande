@@ -102,7 +102,7 @@ const App = () => {
                   onToggle={toggleReminder}
                 />
               ) : (
-                "No Tasks To Show"
+                "Pas de produits"
               )}
             </>
           )}
