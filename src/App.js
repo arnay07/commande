@@ -7,8 +7,7 @@ import AddTask from "./components/AddTask";
 import About from "./components/About";
 
 const App = () => {
-  const url =  "http://localhost:4000"
-  {/*"https://commande-prep.herokuapp.com"*/}
+  const url =  "https://commande-prep.herokuapp.com"
   const [showAddTask, setShowAddTask] = useState(false);
   const [tasks, setTasks] = useState([]);
 
