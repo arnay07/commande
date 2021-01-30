@@ -1,20 +1,20 @@
 {
   "tasks": [
     {
-      "text": "something new",
-      "day": "march 32 2029",
+      "text": "Produit 1",
+      "day": "12/12/2012",
       "reminder": true,
       "id": 1
     },
     {
-      "text": "frheohf",
-      "day": "232/23/2928",
+      "text": "Produit 2",
+      "day": "23/23/2928",
       "reminder": true,
       "id": 2
     },
     {
-      "text": "fhrueihafhrea",
-      "day": "hfuhreuaih",
+      "text": "Produit 4",
+      "day": "20/01/2021",
       "reminder": false,
       "id": 3
     }
